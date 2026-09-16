@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: podinfo-gitops-test
 data:
-  revision: revision-2
+  revision: upgrade-in-disruption-20260916T210511Z
