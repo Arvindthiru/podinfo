@@ -5,7 +5,7 @@ metadata:
   labels:
     app: podinfo
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: podinfo
@@ -21,4 +21,4 @@ spec:
             - containerPort: 9898
           env:
             - name: PODINFO_UI_MESSAGE
-              value: revision-1
+              value: revision-2
