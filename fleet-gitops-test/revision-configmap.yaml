@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: podinfo-gitops-test
 data:
-  revision: upgrade-in-disruption-20260916T210511Z
+  revision: upgrade-drain-boundary-20260916T211210Z
